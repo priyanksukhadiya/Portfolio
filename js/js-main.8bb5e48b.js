@@ -20736,7 +20736,7 @@
 
         function Z() {
             function t() {
-                document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 ? document.getElementById("topButton").style.visibility = "visible" : document.getElementById("topButton").style.visibility = "hidden"
+                // document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 ? document.getElementById("topButton").style.visibility = "visible" : document.getElementById("topButton").style.visibility = "hidden"
             }
             return window.onscroll = function () {
                 t()
