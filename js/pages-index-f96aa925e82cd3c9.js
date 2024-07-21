@@ -716,6 +716,7 @@
                 w = a(4910);
             function j() {
                 let [e, t] = (0, r.useState)(null);
+                var newImagePath = "https://priyanksukhadiya.netlify.app/images/rotate.gif";
                 return (0, s.jsx)("div", {
                     ref: t,
                     children: (0, s.jsxs)(w.fC, {
@@ -726,7 +727,7 @@
                                     className: "hover:-text-teal-300 absolute bottom-0 right-0 inline-flex items-center px-2 py-4 font-medium text-slate-400 hover:-translate-y-2 focus-visible:text-teal-300",
                                     children: [
                                         (0, s.jsx)("span", { className: "sr-only", children: "Click to time travel" }),
-                                        (0, s.jsx)(x(), { src: "https://priyanksukhadiya.netlify.app/images/rotate.gif", alt: "Spinning Tardis from Doctor Who", width: 100, height: 86 }),
+                                        (0, s.jsx)(x(), { src: newImagePath, alt: "New Image Alt Text", width: 100, height: 86 }),
                                     ],
                                 }),
                             }),
