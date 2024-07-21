@@ -825,13 +825,13 @@
                             {
                                 title: "Integrating Algolia Search with WordPress Multisite",
                                 date: "2020",
-                                url: "https://upstatement.com/blog/integrating-algolia-search-with-wordpress-multisite/",
+                                url: "#",
                                 image: { src: "/images/writing/algolia-search.jpeg", alt: "Telescope" },
                             },
                             {
                                 title: "Building a Headless Mobile App CMS From Scratch",
                                 date: "2019",
-                                url: "https://upstatement.com/blog/building-a-headless-mobile-app-cms-from-scratch/",
+                                url: "#",
                                 image: { src: "/images/writing/headless.jpeg", alt: "Headless horseamn" },
                             },
                         ].map((e, t) =>
