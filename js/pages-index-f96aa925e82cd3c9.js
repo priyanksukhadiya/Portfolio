@@ -276,7 +276,7 @@
                     i = "Priyank Sukhadiya is a WordPress Developer who builds accessible, inclusive products and digital experiences for the web.",
                     o = "#",
                     c = "".concat(o, "/og.png"),
-                    d = "@bchiang7",
+                    d = "@asurdv",
                     m = n;
                 return (
                     t !== n && (m = "".concat(t, " | ").concat(n)),
