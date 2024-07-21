@@ -541,12 +541,12 @@
                             className: "ml-1 mt-8 flex items-center",
                             "aria-label": "Social media",
                             children: [
-                                { title: "GitHub", url: "https://github.com/bchiang7", icon: "github" },
-                                { title: "LinkedIn", url: "https://www.linkedin.com/in/bchiang7/", icon: "linkedin" },
-                                { title: "CodePen", url: "https://codepen.io/bchiang7", icon: "codepen" },
-                                { title: "Instagram", url: "https://instagram.com/bchiang7", icon: "instagram" },
-                                { title: "Twitter", url: "https://twitter.com/bchiang7", icon: "twitter-x" },
-                                { title: "Goodreads", url: "https://www.goodreads.com/user/show/143480747-brittany-chiang", icon: "goodreads" },
+                                { title: "GitHub", url: "https://github.com/priyanksukhadiya/", icon: "github" },
+                                { title: "LinkedIn", url: "https://www.linkedin.com/in/priyank-sukhadiya-0a0404214/", icon: "linkedin" },
+                                { title: "CodePen", url: "#", icon: "codepen" },
+                                { title: "Instagram", url: "https://instagram.com/priyanksukhi1601", icon: "instagram" },
+                                { title: "Twitter", url: "https://twitter.com/AsurDv", icon: "twitter-x" },
+                                { title: "Goodreads", url: "#", icon: "goodreads" },
                             ].map((e, t) =>
                                 (0, s.jsx)(
                                     "li",
@@ -604,7 +604,7 @@
                         [a, n] = (0, r.useState)(null);
                     return ((0, r.useEffect)(() => {
                         let e = t.split("/")[4];
-                        fetch("https://api.github.com/repos/bchiang7/".concat(e))
+                        fetch("https://api.github.com/repos/priyanksukhadiya/".concat(e))
                             .then((e) => e.json())
                             .then((e) => {
                                 let { stargazers_count: t } = e;
@@ -643,7 +643,7 @@
                                     desc:
                                         "Web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.",
                                     tech: ["React", "Express", "Spotify API", "Heroku"],
-                                    github: "https://github.com/bchiang7/spotify-profile",
+                                    github: "https://github.com/priyanksukhadiya/spotify-profile",
                                 },
                                 {
                                     title: "Halcyon Theme",
@@ -660,7 +660,7 @@
                                     alt: "brittanychiang.com version 4 hero section",
                                     desc: "An old portfolio site built with Gatsby with 6k+ stars and 3k+ forks",
                                     tech: ["Gatsby", "Styled Components", "Netlify"],
-                                    github: "https://github.com/bchiang7/v4",
+                                    github: "https://github.com/priyanksukhadiya/v4",
                                 },
                             ].map((t, a) =>
                                 (0, s.jsx)(
